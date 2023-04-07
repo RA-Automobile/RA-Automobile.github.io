@@ -2065,6 +2065,7 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
+		background: #5C6161;
 		background: url("assets/css/images/background.jpg");
 		overflow-x: hidden;
 		padding: 6em 0 6em 0;
@@ -2095,8 +2096,7 @@ input, select, textarea {
 	#header-wrapper {
 		position: relative;
 		padding: 4em 0 2em 0;
-		background-image: url("assets/css/images/background.jpg");
-		background-image: url("assets/css/images/background.jpg");
+		background: #5C6161,
 		background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
 		background-repeat: repeat, no-repeat, no-repeat;

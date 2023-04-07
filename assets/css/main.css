@@ -2065,7 +2065,7 @@ input, select, textarea {
 
 	.wrapper {
 		position: relative;
-		background: #fff;
+		background: url("assets/images/background.jpg");
 		overflow-x: hidden;
 		padding: 6em 0 6em 0;
 	}

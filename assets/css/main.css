@@ -2066,7 +2066,7 @@ input, select, textarea {
 	.wrapper {
 		position: relative;
 		background: #5C6161;
-		background: url("assets/css/images/background.jpg");
+		/*background: url("assets/css/images/background.jpg");*/
 		overflow-x: hidden;
 		padding: 6em 0 6em 0;
 	}
@@ -2090,7 +2090,7 @@ input, select, textarea {
 			top: 0;
 			z-index: 1;
 			box-shadow: inset 0px 0px 0px 1px #e8e8e8;
-			background: #f6f8fb url("images/image-wrapper.svg");
+			background: #5C6161 /*url("images/image-wrapper.svg")*/;
 		}
 
 	#header-wrapper {
@@ -2109,7 +2109,8 @@ input, select, textarea {
 
 	#promo-wrapper {
 		position: relative;
-		background-image: url("assets/css/images/background.jpg"), url("../images/promo.jpg");
+		background:#5C6161;
+		/*background-image: url("assets/css/images/background.jpg"), url("../images/promo.jpg")*/;
 		background-size: 192px 192px, cover;
 		background-position: top left, center center;
 		color: #fff;
@@ -2868,7 +2869,7 @@ input, select, textarea {
 				z-index: 10002;
 				box-shadow: inset 0px -2px 5px 0px rgba(0, 0, 0, 0.25);
 				font-size: 1em;
-				background-color: #45474a;
+				background-color: #5C6161;
 				background-size: 128px 128px, 100% 100%, 100% 100%;
 			}
 

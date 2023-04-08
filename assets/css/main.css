@@ -2274,7 +2274,7 @@ input, select, textarea {
 
 	#hero {
 		position: relative;
-		color: #fff;
+		color: #5C6161;
 		text-align: center;
 		z-index: 1;
 	}
@@ -2298,7 +2298,7 @@ input, select, textarea {
 		}
 
 		#hero .button {
-			background: #fff;
+			background: #5C6161;
 			border-color: rgba(255, 255, 255, 0);
 			color: #f08c89;
 			font-size: 1.25em;

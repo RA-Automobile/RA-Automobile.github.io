@@ -2097,9 +2097,9 @@ input, select, textarea {
 		position: relative;
 		padding: 4em 0 2em 0;
 		background: #5C6161,
-		background-size: 100% 620%;
+		/*background-size: 100% 620%;
 		background-size: 128px 128px, 100% 620%, auto;
-		background-repeat: repeat, no-repeat, no-repeat;
+		background-repeat: repeat, no-repeat, no-repeat*/;
 	}
 
 	.homepage #header-wrapper {
@@ -2273,14 +2273,16 @@ input, select, textarea {
 /* Hero */
 
 	#hero {
+		background: #5C6161
 		position: relative;
-		color: #5C6161;
+		color: #fff;
 		text-align: center;
 		z-index: 1;
 	}
 
 		#hero h2 {
 			color: #fff;
+			background: #5C6161;
 			font-size: 3em;
 		}
 
@@ -2290,6 +2292,7 @@ input, select, textarea {
 
 		#hero header > span {
 			color: #fff;
+			background: #5C6161;
 		}
 
 		#hero p {

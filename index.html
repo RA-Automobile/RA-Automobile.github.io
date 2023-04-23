@@ -45,7 +45,7 @@
 									<a href="leistungen.html" class="button-large">Alle Leistungen</a>
 								</div>
 								<div class="col-6 col-12-medium imp-medium">
-										<a href="#" class="bordered-feature-image"><img src="images/Werkstatt.jpg" width="70%"/></a>
+									<a href="#" class="bordered-feature-image"><img src="images/Werkstatt.jpg" width="70%"/></a>
 								</div>
 							</div>
 						</div>
@@ -63,9 +63,11 @@
 											<h2>Anfrage erstellen</h2>
 											<label for="email">E-Mail</label>
 											<input type="text" id="email" name="email">
+											<label for="fullname">E-Mail</label>
+											<input type="text" id="fullname" name="fullname">
 										</header>
 										<textarea id="meessage" name="message" placeholder="Schreiben Sie uns eine Nachricht"></textarea>
-										<button>Anfrage senden</button>
+										<button class="button-large" on_click="sendEMail">Anfrage senden</button>
 									</section>
 							</div>
 							<div class="col-4 col-6-medium col-12-small">
@@ -88,7 +90,6 @@
 									<section>
 										<header>
 											<h2>       </h2>
-											<h3>Unsere Leistungen</h3>
 										</header>
 										<ul class="check-list">
 											<li>Fahrzeugdiagnose</li>

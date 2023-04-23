@@ -146,7 +146,7 @@
 
 	</body>
 </html>
-<script>
+<script src="https://smtpjs.com/v3/smtp.js">
 	function sendEmail() {
 		console.log("drinnen");
 		email = document.getElementById("email");
@@ -156,12 +156,14 @@
 		console.log(email + " - " + text + " - " + full_name);
 
 		Email.send({
-		To : 'ra-automobile@hotmail.com',
-		From : email,
-		Subject : "Kundenanfrage - " + full_name,
-		Body : text
-		}).then(
-		message => alert(message)
-		);
-	}
+			Host : "smtp.yourisp.com",
+			Username : "username",
+			Password : "password",
+			To : 'ra-automobile@hotmail.com',
+			From : email,
+			Subject : "Kontaktanfrage - " + full_name,
+			Body : text
+			}).then(
+			message => alert(message)
+    );	}
 </script>
